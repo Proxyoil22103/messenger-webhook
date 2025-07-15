@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 const VERIFY_TOKEN = "super_secret_token_743";
-
+const VERIFY_TOKEN = "super_secret_token_743";
 // GET للتحقق من Webhook
 app.get("/webhook", (req, res) => {
   const mode = req.query["hub.mode"];
